@@ -1,0 +1,19 @@
+<h1>Listing companies</h1>
+ 
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Value</th>
+    <th colspan="2">Actions</th>
+  </tr>
+ 
+  <% @companies.each do |company| %>
+    <tr>
+      <td><%= company.id %></td>
+      <td><%= link_to company.name, company_path(company) %></td>
+      <td>$<%= company.value %></td>
+      <td><%= link_to 'Edit', edit_company_path(company) %></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,19 @@
+<h1>Listing investors</h1>
+ 
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Username</th>
+    <th>Cash value</th>
+    <th colspan="2">Actions</th>
+  </tr>
+ 
+  <% @investors.each do |investor| %>
+    <tr>
+      <td><%= investor.id %></td>
+      <td><%= link_to investor.user_name, investor_path(investor) %></td>
+      <td>$<%= investor.money %></td>
+      <td><%= link_to 'Edit', edit_investor_path(investor) %></td>
+    </tr>
+  <% end %>
+</table>
