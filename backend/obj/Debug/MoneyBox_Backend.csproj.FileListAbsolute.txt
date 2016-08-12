@@ -1,0 +1,7 @@
+C:\Users\wordm\Source\Repos\MoneyBox\MoneyBox_Backend\bin\Debug\MoneyBox_Backend.exe.config
+C:\Users\wordm\Source\Repos\MoneyBox\backend\bin\Debug\MoneyBox_Backend.exe.config
+C:\Users\wordm\Source\Repos\MoneyBox\backend\bin\Debug\MoneyBox_Backend.exe
+C:\Users\wordm\Source\Repos\MoneyBox\backend\bin\Debug\MoneyBox_Backend.pdb
+C:\Users\wordm\Source\Repos\MoneyBox\backend\obj\Debug\MoneyBox_Backend.csprojResolveAssemblyReference.cache
+C:\Users\wordm\Source\Repos\MoneyBox\backend\obj\Debug\MoneyBox_Backend.exe
+C:\Users\wordm\Source\Repos\MoneyBox\backend\obj\Debug\MoneyBox_Backend.pdb
